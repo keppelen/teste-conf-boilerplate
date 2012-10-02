@@ -4,7 +4,7 @@
   {% for section in site.sections %}
     {% if section[1] == true %}
       <li class="nav-item">
-        <a href="#{{ section[0] }}" class="nav-link">{{ section[0] }}</a>
+        <a id="nav-{{ section[0] }}" href="#{{ section[0] }}" class="nav-link">{{ section[0] }}</a>
       </li>
     {% endif %}
   {% endfor %}

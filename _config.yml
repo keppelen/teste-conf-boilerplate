@@ -26,6 +26,16 @@ sections:
   partners: false
   contact: false
 
+# Name sections on the website
+nameSections:
+  about: Sobre Minha conferencia
+  location: Localização
+  speakers: Palestrantes
+  schedule: Agenda
+  sponsors: Patrocinadores
+  partners: Apoiadores
+  contact: Contato
+
 # The entire schedule
 schedule:
   - name: Check-in / Breakfast
