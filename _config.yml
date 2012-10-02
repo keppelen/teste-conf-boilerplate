@@ -1,19 +1,19 @@
 # Conference info
 conf:
-  name: Conference name
-  description: Conference description
-  date: November 15
-  price: $100
-  address: Boulevard Kukulcan, 30, México
+  name: Conferencia do Keppelen =]
+  description: A melhor conferencia do planeta
+  date: october 12
+  price: $500
+  address: Av. presidente vargas, 1001, rio de janeiro
   venue: Coco Bongo
-  city: Cancún
+  city: Brazil
 
 # Site info
 url: http://confboilerplate.com
 favicon: http://braziljs.org/favicon.ico
 google-analytics: UA-33656081-1
 images:
-  cover: http://f.cl.ly/items/2X28422q1e3w0C2U1P3H/866591_24254643.jpg
+  cover: http://4.bp.blogspot.com/-mr-Arm6LZik/Tys0s7yUP7I/AAAAAAAADfU/lRFze1I8uWo/s1600/aaaaaaest.jpg
   facebook: http://braziljs.org/img/fb-share.jpg
 
 # Active sections on the website
@@ -23,7 +23,7 @@ sections:
   speakers: true
   schedule: true
   sponsors: true
-  partners: true
+  partners: false
   contact: false
 
 # The entire schedule
@@ -31,14 +31,14 @@ schedule:
   - name: Check-in / Breakfast
     time: 9h00
 
-  - name: Linus Torvalds
-    photo: http://f.cl.ly/items/2A3p1N0C3c0n3N3R1w2B/speaker.jpg
-    bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    company: Linux Foundation
-    twitter: linus
+  - name: Giovanni Keppelen
+    photo: http://braziljs.org/img/avatar/giovanni.jpg
+    bio: Fundador do Front in BH e moderador do Rio.js. Estudante de Produção Multimídia Production na UNI-BH. Front-end Engineer e Tech Leader no Peixe Urbano, sempre focando em performance
+    company: Peixe Urbano
+    twitter: keppelen
     presentation:
-      title: Digging into a Linux Kernel
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      title: title Palestra
+      description: description da palestra
       time: 10h00
 
   - name: Bill Gates
@@ -102,6 +102,10 @@ sponsors:
   - name: Eventick
     logo: http://f.cl.ly/items/1U3p0Z0e2w0I1i3z1X22/Image%202012.09.25%203:00:58%20PM.png
     url: http://eventick.com.br
+
+  - name: Peixe Urbano
+    logo: http://drieverywhere.net/wp-content/uploads/2010/04/peixe_urbano_logo.jpg
+    url: http://peixeurbano.com.br
 
 # List of Partners
 partners:
